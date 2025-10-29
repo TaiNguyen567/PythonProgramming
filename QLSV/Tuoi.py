@@ -1,0 +1,12 @@
+chieu_cao=float(input())
+can_nang=float(input())
+BMI=can_nang/(chieu_cao*chieu_cao)
+BMI=round(BMI,1)
+
+if(BMI<18.5):print("Gầy")
+elif(BMI>=18.5 and BMI <25):print("Bình thường")
+elif(BMI>=25 and BMI <30): print("Thừa cân")
+elif(BMI>=30):print("Béo phì")
+print("M= \n",chieu_cao)
+print("W= \n",can_nang)
+print(BMI )
